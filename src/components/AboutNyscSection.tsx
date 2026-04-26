@@ -1,3 +1,5 @@
+import aboutImg from "../assets/about-corps.png";
+
 export function AboutNyscSection() {
   return (
     <section id="about-nysc" className="bg-neutral-50 py-16 md:py-20 border-t-2 border-nysc-green/30">
@@ -26,7 +28,7 @@ export function AboutNyscSection() {
           </div>
           <div>
             <img
-              src="/about-corps.png"
+              src={aboutImg}
               alt="NYSC corps members on parade"
               className="rounded-2xl shadow-xl w-full h-[420px] object-cover"
             />

@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
+import logo from "../assets/nysc-logo.png";
 import { Home, ChevronDown, Menu, X } from "lucide-react";
 
 const NAV: { label: string; to?: string; children?: { label: string; to: string }[] }[] = [
@@ -36,7 +37,7 @@ export function SiteHeader() {
     <header className="bg-neutral-50 border-b border-neutral-200 sticky top-0 z-40">
       <div className="mx-auto max-w-[1400px] px-4 py-2 flex items-center gap-3">
         <Link to="/" className="flex items-center shrink-0">
-          <img src="/nysc-logo.png" alt="NYSC" className="h-20 w-20 object-contain" />
+          <img src={logo} alt="NYSC" className="h-20 w-20 object-contain" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1.5 ml-20">

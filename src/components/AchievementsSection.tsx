@@ -1,3 +1,5 @@
+import a2 from "../assets/achieve2.png";
+import a3 from "../assets/achieve3.png";
 import { CountUp } from "@/components/CountUp";
 
 export function AchievementsSection() {
@@ -9,7 +11,7 @@ export function AchievementsSection() {
           <p className="text-neutral-600 mt-2">Milestones in service to the nation</p>
         </div>
         <div className="grid md:grid-cols-2 gap-6">
-          {["/achieve2.png", "/achieve3.png"].map((src, i) => (
+          {[a2, a3].map((src, i) => (
             <div key={i} className="rounded-xl overflow-hidden shadow-lg border border-neutral-200 bg-white">
               <img src={src} alt={`Achievement ${i + 1}`} className="w-full h-72 object-cover" />
             </div>

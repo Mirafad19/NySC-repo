@@ -1,4 +1,7 @@
 import type { ReactNode } from "react";
+import hero1 from "../assets/hero-1.png";
+import hero2 from "../assets/hero-2.png";
+import hero3 from "../assets/hero-3.png";
 import { CountUp } from "@/components/CountUp";
 
 export function HeroSection() {
@@ -10,19 +13,19 @@ export function HeroSection() {
             {/* Image collage — appears FIRST on mobile, RIGHT on desktop */}
             <div className="relative h-[380px] sm:h-[460px] md:h-[460px] order-1 lg:order-2">
               <img
-                src="/hero-1.png"
+                src={hero1}
                 alt="NYSC ceremony"
                 className="absolute left-0 top-0 w-[60%] h-[55%] object-cover rounded-2xl shadow-lg"
               />
               <span className="absolute left-[56%] top-[1%] w-6 h-6 bg-cyan-400 rounded-md rotate-12" />
               <img
-                src="/hero-2.png"
+                src={hero2}
                 alt="NYSC mobile clinic"
                 className="absolute right-0 top-[8%] w-[34%] h-[38%] object-cover rounded-2xl shadow-lg"
               />
               <span className="absolute right-[32%] top-[4%] w-7 h-7 bg-purple-400 rounded-md -rotate-12" />
               <img
-                src="/hero-3.png"
+                src={hero3}
                 alt="Corps members"
                 className="absolute left-[8%] bottom-0 w-[44%] h-[42%] object-cover rounded-2xl shadow-lg"
               />

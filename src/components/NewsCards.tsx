@@ -1,7 +1,11 @@
+import news1 from "../assets/news1.png";
+import news2 from "../assets/news2.png";
+import news3 from "../assets/news3.png";
+
 const NEWS = [
-  { img: "/news1.png", date: "Apr 18, 2026", title: "DG charges corps members on patriotism and service to fatherland" },
-  { img: "/news2.png", date: "Apr 12, 2026", title: "NYSC partners with private sector on skill acquisition programme" },
-  { img: "/news3.png", date: "Apr 05, 2026", title: "2026 Batch 'A' Stream II orientation course commences nationwide" },
+  { img: news1, date: "Apr 18, 2026", title: "DG charges corps members on patriotism and service to fatherland" },
+  { img: news2, date: "Apr 12, 2026", title: "NYSC partners with private sector on skill acquisition programme" },
+  { img: news3, date: "Apr 05, 2026", title: "2026 Batch 'A' Stream II orientation course commences nationwide" },
 ];
 
 export function NewsCards() {
