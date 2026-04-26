@@ -1,6 +1,5 @@
 import { Link } from "@tanstack/react-router";
 import { Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
-import ndpr from "@/assets/ndpr.png";
 
 export function SiteFooter() {
   return (
@@ -51,7 +50,7 @@ export function SiteFooter() {
             © {new Date().getFullYear()} National Youth Service Corps. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
-            <img src={ndpr} alt="NDPR Audit 2023" className="h-12 object-contain bg-white/5 rounded p-1" />
+            <img src="/ndpr.png" alt="NDPR Audit 2023" className="h-12 object-contain bg-white/5 rounded p-1" />
             <div className="bg-nysc-gold text-nysc-green-dark font-bold text-xs px-3 py-2 rounded">
               50 YEARS<br />OF SERVICE
             </div>

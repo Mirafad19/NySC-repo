@@ -1,5 +1,3 @@
-import objImg from "@/assets/objectives-corps.png";
-
 const OBJECTIVES = [
   "To inculcate discipline in Nigerian youths by instilling in them a tradition of industry at work, and of patriotic and loyal service to Nigeria in any situation they may find themselves.",
   "To raise the moral tone of the Nigerian youths by giving them the opportunity to learn about higher ideals of national achievement, social and cultural improvemen.",
@@ -43,7 +41,7 @@ export function ObjectivesSection() {
           </div>
           <div>
             <img
-              src={objImg}
+              src="/objectives-corps.png"
               alt="NYSC corps members"
               className="rounded-3xl shadow-xl w-full h-[560px] object-cover border-2 border-nysc-green/40"
             />
