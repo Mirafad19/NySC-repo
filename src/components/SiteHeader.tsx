@@ -14,15 +14,11 @@ const NAV: { label: string; to?: string; children?: { label: string; to: string 
   { label: "Top Management", to: "/top-management" },
   {
     label: "Departments",
-    children: [
-      { label: "All Departments", to: "/departments" },
-    ],
+    children: [{ label: "All Departments", to: "/departments" }],
   },
   {
     label: "Locations",
-    children: [
-      { label: "State Offices", to: "/locations" },
-    ],
+    children: [{ label: "State Offices", to: "/locations" }],
   },
   { label: "NHIA Enrolment", to: "/nhia-enrolment" },
   { label: "Publications", to: "/publications" },

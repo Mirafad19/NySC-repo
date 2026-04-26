@@ -40,10 +40,7 @@ export function CountUp({
     return () => observer.disconnect();
   }, [end, duration]);
 
-  const display =
-    decimals > 0
-      ? value.toFixed(decimals)
-      : Math.floor(value).toLocaleString();
+  const display = decimals > 0 ? value.toFixed(decimals) : Math.floor(value).toLocaleString();
 
   return (
     <span ref={ref} suppressHydrationWarning>

@@ -40,8 +40,8 @@ export function HeroSection() {
               </h1>
               <p className="mt-5 text-neutral-600 text-base md:text-[17px] leading-relaxed max-w-xl mx-auto lg:mx-0">
                 The National Youth Service Corps (NYSC) is committed to fostering unity,
-                development, and leadership among Nigerian graduates through structured
-                community service and skill development programs.
+                development, and leadership among Nigerian graduates through structured community
+                service and skill development programs.
               </p>
               <div className="mt-7 flex flex-col sm:flex-row flex-wrap gap-4 items-stretch sm:items-center justify-center lg:justify-start">
                 <a
@@ -64,7 +64,15 @@ export function HeroSection() {
 
           {/* Stats — stack vertically on mobile, 3-col on desktop */}
           <div className="mt-14 flex flex-col md:grid md:grid-cols-3 gap-10 md:gap-6 max-w-3xl mx-auto">
-            <Stat top="Deployed Over" big={<><CountUp end={6.4} decimals={1} suffix="M+" /></>} sub="Corps Members Since Inception" />
+            <Stat
+              top="Deployed Over"
+              big={
+                <>
+                  <CountUp end={6.4} decimals={1} suffix="M+" />
+                </>
+              }
+              sub="Corps Members Since Inception"
+            />
             <Stat top="Across All" big={<CountUp end={36} />} sub="States + FCT" divider />
             <Stat top="For" big={<CountUp end={52} />} sub="Years" divider />
           </div>

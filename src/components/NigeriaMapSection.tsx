@@ -70,13 +70,11 @@ export function NigeriaMapSection() {
             <p className="mt-6 text-neutral-700 text-base md:text-lg leading-relaxed">
               <span className="text-nysc-green-dark font-semibold">Explore</span> Nigeria
               interactively using the map.{" "}
-              <span className="text-nysc-green-dark font-semibold">Click</span> on any state
-              to see more information about the state.
+              <span className="text-nysc-green-dark font-semibold">Click</span> on any state to see
+              more information about the state.
             </p>
             {active && (
-              <p className="mt-4 text-nysc-green-dark font-bold text-lg">
-                {active} State
-              </p>
+              <p className="mt-4 text-nysc-green-dark font-bold text-lg">{active} State</p>
             )}
             <a
               href="/locations"
