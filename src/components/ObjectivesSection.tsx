@@ -1,4 +1,4 @@
-import objImg from "../assets/objectives-corps.png";
+import objImg from "@/assets/objectives-corps.png";
 
 const OBJECTIVES = [
   "To inculcate discipline in Nigerian youths by instilling in them a tradition of industry at work, and of patriotic and loyal service to Nigeria in any situation they may find themselves.",
@@ -23,8 +23,8 @@ export function ObjectivesSection() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           <div>
             <h3 className="text-2xl md:text-[28px] font-extrabold text-nysc-green-dark leading-snug">
-              The objectives of the National Youth Service Corps Scheme are clearly spelt out in
-              Decree No.51 of 16th June 1993 as follows:
+              The objectives of the National Youth Service Corps Scheme are clearly spelt
+              out in Decree No.51 of 16th June 1993 as follows:
             </h3>
             <ol className="mt-8 space-y-4 text-neutral-700 leading-relaxed">
               {OBJECTIVES.map((o, i) => (

@@ -1,4 +1,4 @@
-import dg from "../assets/dg.png";
+import dg from "@/assets/dg.png";
 import { Link } from "@tanstack/react-router";
 
 export function DirectorGeneralSection() {
@@ -7,11 +7,7 @@ export function DirectorGeneralSection() {
       <div className="mx-auto max-w-[1200px] px-4 grid md:grid-cols-2 gap-10 items-center">
         <div className="relative">
           <div className="absolute -top-4 -left-4 w-full h-full bg-nysc-gold rounded-xl -z-10" />
-          <img
-            src={dg}
-            alt="NYSC Director-General"
-            className="w-full rounded-xl shadow-xl object-cover"
-          />
+          <img src={dg} alt="NYSC Director-General" className="w-full rounded-xl shadow-xl object-cover" />
         </div>
         <div>
           <p className="uppercase tracking-widest text-nysc-green font-bold text-xs mb-2">
@@ -21,14 +17,14 @@ export function DirectorGeneralSection() {
             Meet The Director-General
           </h2>
           <p className="text-neutral-700 leading-relaxed mb-4">
-            The Director-General of the National Youth Service Corps leads the Scheme's mission of
-            fostering national unity, mobilising graduate youth for service, and advancing skill
-            acquisition across the federation.
+            The Director-General of the National Youth Service Corps leads the Scheme's
+            mission of fostering national unity, mobilising graduate youth for service,
+            and advancing skill acquisition across the federation.
           </p>
           <p className="text-neutral-700 leading-relaxed mb-6">
-            Under his stewardship, NYSC continues to evolve — embracing technology, expanding
-            entrepreneurship programmes, and strengthening partnerships that empower corps members
-            for life beyond the service year.
+            Under his stewardship, NYSC continues to evolve — embracing technology,
+            expanding entrepreneurship programmes, and strengthening partnerships that
+            empower corps members for life beyond the service year.
           </p>
           <Link
             to="/top-management"

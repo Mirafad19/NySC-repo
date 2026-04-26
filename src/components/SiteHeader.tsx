@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
-import logo from "../assets/nysc-logo.png";
-import { Home, ChevronDown, Menu, X } from "lucide-react";
+import { Menu, X, Home, ChevronDown } from "lucide-react";
+import logo from "@/assets/nysc-logo.png";
 
 const NAV: { label: string; to?: string; children?: { label: string; to: string }[] }[] = [
   {
@@ -14,11 +14,15 @@ const NAV: { label: string; to?: string; children?: { label: string; to: string 
   { label: "Top Management", to: "/top-management" },
   {
     label: "Departments",
-    children: [{ label: "All Departments", to: "/departments" }],
+    children: [
+      { label: "All Departments", to: "/departments" },
+    ],
   },
   {
     label: "Locations",
-    children: [{ label: "State Offices", to: "/locations" }],
+    children: [
+      { label: "State Offices", to: "/locations" },
+    ],
   },
   { label: "NHIA Enrolment", to: "/nhia-enrolment" },
   { label: "Publications", to: "/publications" },
@@ -36,21 +40,28 @@ export function SiteHeader() {
           <img src={logo} alt="NYSC" className="h-20 w-20 object-contain" />
         </Link>
 
-        <nav className="hidden xl:flex items-center gap-1 ml-12">
+        <nav className="hidden lg:flex items-center gap-1.5 ml-20">
+          <Link
+            to="/"
+            className="bg-nysc-green hover:bg-nysc-green-dark text-white px-3 py-2 rounded flex items-center justify-center"
+            aria-label="Home"
+          >
+            <Home className="h-4 w-4" />
+          </Link>
           {NAV.map((item) =>
             item.children ? (
               <div key={item.label} className="relative group">
-                <button className="text-slate-600 hover:text-nysc-green px-4 py-2 text-sm font-bold flex items-center gap-1 transition-colors">
+                <button className="bg-nysc-green hover:bg-nysc-green-dark text-white px-3 py-2 rounded text-[13px] font-semibold flex items-center gap-1.5 whitespace-nowrap">
                   {item.label}
-                  <ChevronDown className="h-3.5 w-3.5 opacity-60 group-hover:opacity-100 transition-opacity" />
+                  <ChevronDown className="h-3 w-3" />
                 </button>
-                <div className="absolute left-0 top-full pt-2 hidden group-hover:block min-w-[240px] z-50">
-                  <div className="bg-white border border-slate-100 rounded-xl shadow-2xl py-2 overflow-hidden">
+                <div className="absolute left-0 top-full pt-1 hidden group-hover:block min-w-[200px] z-50">
+                  <div className="bg-white border border-neutral-200 rounded shadow-lg py-1">
                     {item.children.map((c) => (
                       <Link
                         key={c.to}
                         to={c.to}
-                        className="block px-5 py-3 text-[13px] font-semibold text-slate-600 hover:bg-nysc-green/5 hover:text-nysc-green transition-colors"
+                        className="block px-4 py-2 text-sm text-neutral-700 hover:bg-nysc-green/10 hover:text-nysc-green"
                       >
                         {c.label}
                       </Link>
@@ -62,7 +73,7 @@ export function SiteHeader() {
               <Link
                 key={item.to}
                 to={item.to!}
-                className="text-slate-600 hover:text-nysc-green px-4 py-2 text-sm font-bold transition-colors"
+                className="bg-nysc-green hover:bg-nysc-green-dark text-white px-3 py-2 rounded text-[13px] font-semibold whitespace-nowrap"
               >
                 {item.label}
               </Link>
