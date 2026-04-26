@@ -1,3 +1,4 @@
+import dg from "../assets/dg.png";
 import { Link } from "@tanstack/react-router";
 
 export function DirectorGeneralSection() {
@@ -6,7 +7,7 @@ export function DirectorGeneralSection() {
       <div className="mx-auto max-w-[1200px] px-4 grid md:grid-cols-2 gap-10 items-center">
         <div className="relative">
           <div className="absolute -top-4 -left-4 w-full h-full bg-nysc-gold rounded-xl -z-10" />
-          <img src="/dg.png" alt="NYSC Director-General" className="w-full rounded-xl shadow-xl object-cover" />
+          <img src={dg} alt="NYSC Director-General" className="w-full rounded-xl shadow-xl object-cover" />
         </div>
         <div>
           <p className="uppercase tracking-widest text-nysc-green font-bold text-xs mb-2">
