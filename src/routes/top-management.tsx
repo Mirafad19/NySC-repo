@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageShell } from "@/components/PageShell";
-import dg from "../assets/dg.png";
 
 export const Route = createFileRoute("/top-management")({
   head: () => ({
@@ -16,7 +15,7 @@ function TopMgmt() {
   return (
     <PageShell title="Top Management" subtitle="Leadership of the National Youth Service Corps.">
       <div className="grid md:grid-cols-3 gap-8 items-start">
-        <img src={dg} alt="Director-General" className="rounded-xl shadow-lg w-full" />
+        <img src="/dg.png" alt="Director-General" className="rounded-xl shadow-lg w-full" />
         <div className="md:col-span-2 space-y-4 text-neutral-700">
           <h2 className="text-2xl font-bold text-nysc-green-dark">The Director-General</h2>
           <p>The Director-General is the chief executive of the Scheme, responsible for policy implementation, mobilisation and the overall welfare of corps members across the federation.</p>

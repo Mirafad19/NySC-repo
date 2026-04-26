@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageShell } from "@/components/PageShell";
-import objectives from "../assets/objectives.png";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -24,7 +23,7 @@ function About() {
           <h2 className="text-2xl font-bold text-nysc-green-dark mt-6">Mission</h2>
           <p>To deploy Nigerian graduates for service in unfamiliar parts of the country, building national cohesion through shared experience and skill development.</p>
         </div>
-        <img src={objectives} alt="NYSC objectives" className="rounded-xl shadow-lg w-full" />
+        <img src="/objectives.png" alt="NYSC objectives" className="rounded-xl shadow-lg w-full" />
       </div>
       <div className="mt-12">
         <h2 className="text-2xl font-bold text-nysc-green-dark mb-4">Objectives</h2>
