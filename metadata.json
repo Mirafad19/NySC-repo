@@ -1,0 +1,6 @@
+{
+  "name": "NYSC Site Replica",
+  "description": "A high-fidelity replica of the National Youth Service Corps (NYSC) website, built with React and TanStack Router.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
