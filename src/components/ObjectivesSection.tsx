@@ -1,5 +1,5 @@
 const objImg =
-  "https://images.unsplash.com/photo-1521791136064-7986c2923216?auto=format&fit=crop&q=80&w=800";
+  "https://www.image2url.com/r2/default/images/1777242842597-58426321-5989-4fc4-985e-967f4fd647c3.png";
 
 const OBJECTIVES = [
   "To inculcate discipline in Nigerian youths by instilling in them a tradition of industry at work, and of patriotic and loyal service to Nigeria in any situation they may find themselves.",

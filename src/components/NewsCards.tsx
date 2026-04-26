@@ -1,9 +1,9 @@
 const news1 =
-  "https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?auto=format&fit=crop&q=80&w=800";
+  "https://www.image2url.com/r2/default/images/1777242602855-1b05a3b3-6a5b-404d-87e3-07005e4f2cd6.png";
 const news2 =
-  "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800";
+  "https://www.image2url.com/r2/default/images/1777242642727-6c9ec62e-6e63-497a-8169-c81d49b4ed88.png";
 const news3 =
-  "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800";
+  "https://www.image2url.com/r2/default/images/1777242697426-c3a47806-cce1-43b6-a335-0895b021a1c0.png";
 
 const NEWS = [
   {

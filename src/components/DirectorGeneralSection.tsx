@@ -1,5 +1,5 @@
 const dg =
-  "https://image2url.com/r2/default/images/1773694511718-c3a9a776-971b-4a08-801b-8bb966c8f78b.jpg";
+  "https://www.image2url.com/r2/default/images/1777242488945-7b30f7f1-6104-4b4c-8e8a-6242608e33c2.png";
 import { Link } from "@tanstack/react-router";
 
 export function DirectorGeneralSection() {

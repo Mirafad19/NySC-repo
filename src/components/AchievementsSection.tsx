@@ -1,7 +1,7 @@
 const a2 =
-  "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=800";
+  "https://www.image2url.com/r2/default/images/1777242749484-fbff3607-929d-4c5b-8d6d-1e552dd87a54.png";
 const a3 =
-  "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=800";
+  "https://www.image2url.com/r2/default/images/1777242043827-91a26377-c5b5-463a-929c-ff84c52b211d.png";
 import { CountUp } from "@/components/CountUp";
 
 export function AchievementsSection() {

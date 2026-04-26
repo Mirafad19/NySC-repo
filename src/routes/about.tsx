@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageShell } from "@/components/PageShell";
 const objectives =
-  "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&q=80&w=800";
+  "https://www.image2url.com/r2/default/images/1777242298709-8543c794-d1a7-4b00-accb-7b7e7125d5f4.png";
 
 export const Route = createFileRoute("/about")({
   head: () => ({

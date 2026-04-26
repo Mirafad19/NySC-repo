@@ -1,10 +1,10 @@
 import type { ReactNode } from "react";
 const hero1 =
-  "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&q=80&w=800";
+  "https://www.image2url.com/r2/default/images/1777242043827-91a26377-c5b5-463a-929c-ff84c52b211d.png";
 const hero2 =
-  "https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800";
+  "https://www.image2url.com/r2/default/images/1777242186065-e85a26a7-b5b9-4a2d-8d0a-2a801a38e455.png";
 const hero3 =
-  "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=800";
+  "https://www.image2url.com/r2/default/images/1777242223282-ca40802f-a89a-44e0-bbaa-c15767121604.png";
 import { CountUp } from "@/components/CountUp";
 
 export function HeroSection() {
