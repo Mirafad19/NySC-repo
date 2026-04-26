@@ -1,4 +1,5 @@
-import dg from "@/assets/dg.png";
+const dg =
+  "https://image2url.com/r2/default/images/1773694511718-c3a9a776-971b-4a08-801b-8bb966c8f78b.jpg";
 import { Link } from "@tanstack/react-router";
 
 export function DirectorGeneralSection() {

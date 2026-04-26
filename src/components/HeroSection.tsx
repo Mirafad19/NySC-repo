@@ -1,7 +1,10 @@
 import type { ReactNode } from "react";
-import hero1 from "@/assets/hero-1.png";
-import hero2 from "@/assets/hero-2.png";
-import hero3 from "@/assets/hero-3.png";
+const hero1 =
+  "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&q=80&w=800";
+const hero2 =
+  "https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800";
+const hero3 =
+  "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=800";
 import { CountUp } from "@/components/CountUp";
 
 export function HeroSection() {

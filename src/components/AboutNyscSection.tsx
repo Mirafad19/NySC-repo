@@ -1,4 +1,5 @@
-import aboutImg from "@/assets/about-corps.png";
+const aboutImg =
+  "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800";
 
 export function AboutNyscSection() {
   return (

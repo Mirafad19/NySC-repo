@@ -1,4 +1,5 @@
-import objImg from "@/assets/objectives-corps.png";
+const objImg =
+  "https://images.unsplash.com/photo-1521791136064-7986c2923216?auto=format&fit=crop&q=80&w=800";
 
 const OBJECTIVES = [
   "To inculcate discipline in Nigerian youths by instilling in them a tradition of industry at work, and of patriotic and loyal service to Nigeria in any situation they may find themselves.",

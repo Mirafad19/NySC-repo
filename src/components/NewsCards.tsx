@@ -1,6 +1,9 @@
-import news1 from "@/assets/news1.png";
-import news2 from "@/assets/news2.png";
-import news3 from "@/assets/news3.png";
+const news1 =
+  "https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?auto=format&fit=crop&q=80&w=800";
+const news2 =
+  "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800";
+const news3 =
+  "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800";
 
 const NEWS = [
   {

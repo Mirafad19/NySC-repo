@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
-import ndpr from "@/assets/ndpr.png";
+const ndpr =
+  "https://www.image2url.com/r2/default/images/1777146095934-9eb8eb7c-59b7-4069-8af9-b9db08a2395e.png"; // Using logo as placeholder for now or another relevant URL
 
 export function SiteFooter() {
   return (

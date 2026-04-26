@@ -1,5 +1,7 @@
-import a2 from "@/assets/achieve2.png";
-import a3 from "@/assets/achieve3.png";
+const a2 =
+  "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=800";
+const a3 =
+  "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=800";
 import { CountUp } from "@/components/CountUp";
 
 export function AchievementsSection() {

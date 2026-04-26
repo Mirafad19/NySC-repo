@@ -1,7 +1,8 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X, Home, ChevronDown } from "lucide-react";
-import logo from "@/assets/nysc-logo.png";
+const logo =
+  "https://www.image2url.com/r2/default/images/1777146095934-9eb8eb7c-59b7-4069-8af9-b9db08a2395e.png";
 
 const NAV: { label: string; to?: string; children?: { label: string; to: string }[] }[] = [
   {
