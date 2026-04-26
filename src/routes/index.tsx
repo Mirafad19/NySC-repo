@@ -11,6 +11,7 @@ import { ObjectivesSection } from "@/components/ObjectivesSection";
 import { KeyLinksGrid } from "@/components/KeyLinksGrid";
 import { NewsCards } from "@/components/NewsCards";
 import { AchievementsSection } from "@/components/AchievementsSection";
+import { KeyPortalsSection } from "@/components/KeyPortalsSection";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -40,6 +41,7 @@ function Index() {
         <HeroSection />
         <NigeriaMapSection />
         <AboutNyscSection />
+        <KeyPortalsSection />
         <DirectorGeneralSection />
         <ObjectivesSection />
         <KeyLinksGrid />

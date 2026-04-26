@@ -7,12 +7,17 @@ export function AchievementsSection() {
     <section className="py-16 bg-gradient-to-b from-neutral-50 to-white">
       <div className="mx-auto max-w-[1200px] px-4">
         <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-nysc-green-dark">Our Achievements</h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-nysc-green-dark">
+            Our Achievements
+          </h2>
           <p className="text-neutral-600 mt-2">Milestones in service to the nation</p>
         </div>
         <div className="grid md:grid-cols-2 gap-6">
           {[a2, a3].map((src, i) => (
-            <div key={i} className="rounded-xl overflow-hidden shadow-lg border border-neutral-200 bg-white">
+            <div
+              key={i}
+              className="rounded-xl overflow-hidden shadow-lg border border-neutral-200 bg-white"
+            >
               <img src={src} alt={`Achievement ${i + 1}`} className="w-full h-72 object-cover" />
             </div>
           ))}

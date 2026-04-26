@@ -15,7 +15,9 @@ export function AIAgentWidget() {
     function handleMessage(event: MessageEvent) {
       if (!iframe || !container) return;
       if (event.source !== iframe.contentWindow) return;
-      const data = event.data as { type?: string; isOpen?: boolean; width?: number; height?: number } | undefined;
+      const data = event.data as
+        | { type?: string; isOpen?: boolean; width?: number; height?: number }
+        | undefined;
       if (!data || data.type !== "agent-widget-resize") return;
 
       const isMobile = window.innerWidth < 768;
@@ -38,9 +40,7 @@ export function AIAgentWidget() {
         iframe.style.width = (data.width ?? 80) + "px";
         iframe.style.height = (data.height ?? 80) + "px";
         iframe.style.borderRadius = isOpen ? "24px" : "20px";
-        iframe.style.boxShadow = isOpen
-          ? "0 25px 50px -12px rgba(0, 0, 0, 0.25)"
-          : "none";
+        iframe.style.boxShadow = isOpen ? "0 25px 50px -12px rgba(0, 0, 0, 0.25)" : "none";
       }
     }
 

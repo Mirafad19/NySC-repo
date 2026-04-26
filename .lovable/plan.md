@@ -1,5 +1,3 @@
-
-
 # NYSC Website Clone — Build Plan
 
 I'll build a faithful clone of nysc.gov.ng using your uploaded images and screenshots as the source of truth for content, layout, and color. The site will use the official NYSC green palette and match the structure shown in your screenshots: green countdown bar → white nav with logo → hero → DG section → Key Links → News → Footer.
@@ -22,6 +20,7 @@ Dropdown menus (About Us, Departments, Locations) will be implemented with the e
 ## Design System
 
 **Colors** (matching screenshots exactly):
+
 - Primary green: `#006400` (deep NYSC green — countdown bar, nav buttons, footer)
 - Accent green: `#0a8a0a` (hover states, scroll-to-top button)
 - Background: `#ffffff`
@@ -48,6 +47,7 @@ Dropdown menus (About Us, Departments, Locations) will be implemented with the e
 ## Assets
 
 Copy uploaded images to `src/assets/`:
+
 - `DG.png` → DG portrait
 - `news1.png`, `news2.png`, `news3.png` → news cards
 - `achieve_2.png`, `achieve_3.png` → achievements
@@ -71,4 +71,3 @@ The Nigeria map will be an inline SVG component (lightweight, no external depend
 I will reproduce the **layout, structure, color palette, navigation labels, and visual design** as shown in your screenshots. Body copy on inner pages (About, FAQs, etc.) will be written as plausible placeholder content matching the NYSC tone — I won't copy long passages of text I don't have screenshots for, but anything visible in your screenshots will be reproduced verbatim. If you want exact text on inner pages, send screenshots of those pages or paste the text and I'll swap it in.
 
 Approve and I'll start building.
-

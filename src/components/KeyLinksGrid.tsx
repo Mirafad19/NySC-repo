@@ -1,6 +1,13 @@
 import {
-  CalendarDays, UserPlus, Smartphone, BookOpen, MapPin, Building2,
-  Headphones, FileText, Image as ImageIcon,
+  CalendarDays,
+  UserPlus,
+  Smartphone,
+  BookOpen,
+  MapPin,
+  Building2,
+  Headphones,
+  FileText,
+  Image as ImageIcon,
 } from "lucide-react";
 
 const LINKS = [
@@ -34,7 +41,9 @@ export function KeyLinksGrid() {
                 <Icon className="h-6 w-6" />
               </div>
               <div>
-                <h3 className="font-bold text-nysc-green-dark group-hover:text-nysc-green">{title}</h3>
+                <h3 className="font-bold text-nysc-green-dark group-hover:text-nysc-green">
+                  {title}
+                </h3>
                 <p className="text-sm text-neutral-600 mt-1">{desc}</p>
               </div>
             </a>

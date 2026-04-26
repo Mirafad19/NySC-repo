@@ -2,7 +2,10 @@ import aboutImg from "../assets/about-corps.png";
 
 export function AboutNyscSection() {
   return (
-    <section id="about-nysc" className="bg-neutral-50 py-16 md:py-20 border-t-2 border-nysc-green/30">
+    <section
+      id="about-nysc"
+      className="bg-neutral-50 py-16 md:py-20 border-t-2 border-nysc-green/30"
+    >
       <div className="mx-auto max-w-[1300px] px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -10,14 +13,14 @@ export function AboutNyscSection() {
               About <span className="text-nysc-green-dark">The NYSC</span>
             </h2>
             <p className="mt-8 text-neutral-700 leading-relaxed text-base md:text-lg">
-              <span className="text-nysc-green-dark font-bold">The NYSC scheme</span> was
-              created in a bid to reconstruct, reconcile and rebuild the country after the
-              Nigerian Civil war. The unfortunate antecedents in our national history gave
-              impetus to the establishment of the National Youth Service Corps by decree{" "}
-              <strong className="text-slate-900">No.24 of 22nd May 1973</strong> which stated
-              that the NYSC is being established &quot;with a view to the proper
-              encouragement and development of common ties among the youths of Nigeria and
-              the promotion of national unity&quot;.
+              <span className="text-nysc-green-dark font-bold">The NYSC scheme</span> was created in
+              a bid to reconstruct, reconcile and rebuild the country after the Nigerian Civil war.
+              The unfortunate antecedents in our national history gave impetus to the establishment
+              of the National Youth Service Corps by decree{" "}
+              <strong className="text-slate-900">No.24 of 22nd May 1973</strong> which stated that
+              the NYSC is being established &quot;with a view to the proper encouragement and
+              development of common ties among the youths of Nigeria and the promotion of national
+              unity&quot;.
             </p>
             <a
               href="/about"
