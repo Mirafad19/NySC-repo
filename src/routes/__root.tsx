@@ -1,7 +1,6 @@
 import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
-import { AIAgentWidget } from "@/components/AIAgentWidget";
 
 function NotFoundComponent() {
   return (
@@ -69,7 +68,6 @@ function RootComponent() {
   return (
     <>
       <Outlet />
-      <AIAgentWidget />
     </>
   );
 }
